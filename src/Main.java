@@ -83,6 +83,7 @@ public class Main extends JFrame {
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 175);
+        setTitle("Temperature Converter");
     }
 
     private void addListenerToConvertButton() {
